@@ -1,0 +1,59 @@
+#!/bin/sh
+clear
+echo "+==============================================+"
+echo "|SELAMAT DANTANH DI SCRIP PELANCAR SINYAL      |"
+echo "|hati hati dengan scrip ini kecepatan sinyal   |"
+echo "|cepat dapat memakan banyak kouta              |"
+echo "+==============================================+"
+echo
+echo "PILIH KECEPATAN."
+echo "1. 1kb/d"
+echo "2. 5kb/d"
+echo "3. 10kb/d"
+echo "4. 20kb/d"
+echo "5. 50kb/d"
+echo "6. 100kb/d"
+echo
+read -p "Pilih salah satu:" pilih
+if [ $pilih = 1 ]
+then
+clear
+echo
+ping -s1000 1.1.1.1
+echo "Janagan lupa subscribe channel MA"
+fi
+if [ $pilih = 2 ]
+then
+clear
+echo
+ping -s5000 1.1.1.1
+echo "Jangan lupa subscribe channel MA"
+fi
+if [ $pilih = 3 ]
+then
+clear
+echo
+ping -s10000 1.1.1.1
+echo "Jangan lupa subscribe channel MA"
+fi
+if [ $pilih = 4 ]
+then
+clear
+echo
+ping -s20000 1.1.1.1
+echo "Jangan lupa subscribe channel MA"
+fi
+if [ $pilih = 5 ]
+then
+clear
+echo
+ping -s50000 1.1.1.1
+echo "Jangan lupa subscribe channel MA"
+fi
+if [ $pilih = 6 ]
+then
+clear
+echo
+ping -s60000 1.1.1.1
+echo "Jangan lupa subscribe channel MA"
+fi
